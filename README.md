@@ -9,7 +9,7 @@ OceanCleaner is a Java app to clean the ocean from oil patches.
 Clone the project.
 
 ```bash
-git clone [your-clone-link-from-git]
+git clone [your-link-from-git]
 ```
 
 
