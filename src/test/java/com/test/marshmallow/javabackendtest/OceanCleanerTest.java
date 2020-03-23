@@ -26,7 +26,7 @@ public class OceanCleanerTest {
         oceanCleaner.navigateAndClean("NNESEESWNWW");
 
         Coordinates finalPosition =  oceanCleaner.getCleanerPosition();
-        assertEquals(3,finalPosition.getX() );
+        assertEquals(1,finalPosition.getX() );
         assertEquals(3,finalPosition.getY() );
 
         int finalNumberOfPatchesInCOean = oceanCleaner.numberOfPatchesInArea();
@@ -81,7 +81,7 @@ public class OceanCleanerTest {
         oceanCleaner.navigateAndClean("WWWWWWWWWWWW");
 
         Coordinates finalPosition =  oceanCleaner.getCleanerPosition();
-        assertEquals(4,finalPosition.getX() );
+        assertEquals(0,finalPosition.getX() );
         assertEquals(1,finalPosition.getY() );
     }
 
@@ -98,7 +98,7 @@ public class OceanCleanerTest {
         oceanCleaner.navigateAndClean("EEEEEEEEEEEEEEE");
 
         Coordinates finalPosition =  oceanCleaner.getCleanerPosition();
-        assertEquals(0,finalPosition.getX() );
+        assertEquals(4,finalPosition.getX() );
         assertEquals(1,finalPosition.getY() );
     }
 
@@ -114,7 +114,7 @@ public class OceanCleanerTest {
                 )
         );
 
-        oceanCleaner.navigateAndClean("WWWWWWWWWWWWW");
+        oceanCleaner.navigateAndClean("EEEEEEEEEEEEEEE");
 
         int finalNumberOfPatchesInCOean = oceanCleaner.numberOfPatchesInArea();
         assertEquals(0, finalNumberOfPatchesInCOean);
