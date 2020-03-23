@@ -37,7 +37,7 @@ public class OceanCleaner {
                     );
         }
 
-        if ('W' == move && cleanerPosition.getX() < areaSize.getX() -1) {
+        if ('E' == move && cleanerPosition.getX() < areaSize.getX() -1) {
             cleanerPosition =
                     new Coordinates(cleanerPosition.getX() + 1,
                             cleanerPosition.getY()
@@ -51,7 +51,7 @@ public class OceanCleaner {
                     );
         }
 
-        if ('E' == move && cleanerPosition.getX() > 0) {
+        if ('W' == move && cleanerPosition.getX() > 0) {
             cleanerPosition =
                     new Coordinates(cleanerPosition.getX() - 1,
                             cleanerPosition.getY()
