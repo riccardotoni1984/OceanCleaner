@@ -3,7 +3,15 @@
 
 OceanCleaner is a Java app to clean the ocean from oil patches.
 
+
 ## Run
+
+Clone the project.
+
+```bash
+git clone [your-clone-link-from-git]
+```
+
 
 Build the the jar file with Maven executing the following command from the root of the project.
 
